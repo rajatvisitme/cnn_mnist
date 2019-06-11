@@ -1,19 +1,19 @@
-<h1>Convolutional neural network - MNIST digit classification</h1>
+<h1>MNIST handwritten digits classification - Convolutional Neural Network</h1>
 
 The MNIST database of handwritten digits, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.
 
-Library used:
-  Tensorflow,
-  Matplotlib,
-  Numpy,
-  OpenCV
+<ul>Library used:
+  <li>Tensorflow</li>
+  <li>Matplotlib</li>
+  <li>Numpy</li>
+  <li>OpenCV</li>
+</ul>
 
- Keras: a high-level API, to build and train models
+ <b>Keras:</b> a high-level API, to build and train models
  tf.keras is TensorFlow's implementation of the Keras API specification.
  
- Steps involved:
- 
+ <h2>Steps involved:</h2>
  [mnist.py]
  1. Importing required libraries.
  2. Loading MNIST dataset

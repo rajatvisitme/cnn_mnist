@@ -3,7 +3,7 @@
 The MNIST database of handwritten digits, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.
 
-<h2>Library used:</h2>
+<h2>Dependencies</h2>
 <ul>
   <li>Tensorflow</li>
   <li>Matplotlib</li>
@@ -11,10 +11,12 @@ It is a good database for people who want to try learning techniques and pattern
   <li>OpenCV</li>
 </ul>
 
+  Use <b>pip</b> to install any missing dependencies.
+
  <b>Keras:</b> a high-level API, to build and train models<br/>
- tf.keras is TensorFlow's implementation of the Keras API specification.
+ <b>tf.keras</b> is TensorFlow's implementation of the Keras API specification.
  
- <h2>Steps involved:</h2>
+ <h2>Code-Walkthrough</h2>
  
  [mnist.py]
  1. Importing required libraries.
